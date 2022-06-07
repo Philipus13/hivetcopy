@@ -1,0 +1,107 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+      {
+        "name": "Flutter Dev Chrome",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "debug",
+        "program": "lib/main_dev.dart",
+        "args": [
+          "--flavor",
+          "dev"
+        ],
+        "deviceId": "chrome"
+      },
+      {
+        "name": "Flutter Dev iOS",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "debug",
+        "program": "lib/main_dev.dart",
+        "args": [
+          "--flavor",
+          "dev"
+        ],
+        "deviceId": "B256CFFA-1646-46D5-902E-B83CE871FF70"
+      },
+      {
+        "name": "Flutter Dev Release",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "release",
+        "program": "lib/main_dev.dart",
+        "args": [
+          "-t",
+          "lib/main_dev.dart",
+          "--flavor",
+          "dev"
+        ]
+      },
+      {
+        "name": "Flutter Dev Debug",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "debug",
+        "program": "lib/main_dev.dart",
+        "args": [
+          "-t",
+          "lib/main_dev.dart",
+          "--flavor",
+          "dev"
+        ]
+      },
+      {
+        "name": "Flutter Profile",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "profile",
+        "program": "lib/main_dev.dart",
+        "args": [
+          "--flavor",
+          "dev"
+        ]
+      },
+      {
+        "name": "Flutter QA",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "release",
+        "program": "lib/main_qa.dart",
+        "args": [
+          "--flavor",
+          "qa"
+        ]
+      },
+      {
+        "name": "Flutter Prod",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "release",
+        "program": "lib/main_prod.dart",
+        "args": [
+          "--flavor",
+          "prod"
+        ]
+      },
+      {
+        "name": "Flutter Prod Debug",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "debug",
+        "program": "lib/main_prod.dart",
+        "args": [
+          "--flavor",
+          "prod"
+        ]
+      },
+    ],
+    "compounds": [
+      {
+        "name": "Multi Devices",
+        "configurations": ["Flutter Dev Chrome", "Flutter Dev iOS"]
+      }
+    ]
+  }
+  

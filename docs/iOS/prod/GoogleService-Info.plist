@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>681068158339-r9inlq3kt1v3okcjsnm24u5h7v3shn3j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.681068158339-r9inlq3kt1v3okcjsnm24u5h7v3shn3j</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>681068158339-1jbsmdektpv9ef0rjvebmljs7r58pijh.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAClY-ZqEcgWbrsMLnzAQCcDkzglq5GStA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>681068158339</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>id.hivet.apps</string>
+	<key>PROJECT_ID</key>
+	<string>hivet-55766</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hivet-55766.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:681068158339:ios:5864fdc7c29ddfc582aab6</string>
+</dict>
+</plist>

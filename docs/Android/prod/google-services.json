@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "681068158339",
+    "project_id": "hivet-55766",
+    "storage_bucket": "hivet-55766.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681068158339:android:2cd4f3e1d85bbf7982aab6",
+        "android_client_info": {
+          "package_name": "id.hivet.apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681068158339-1jbsmdektpv9ef0rjvebmljs7r58pijh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.hivet.apps",
+            "certificate_hash": "c6d58ff8994f827493b7da0638e6f074463bd962"
+          }
+        },
+        {
+          "client_id": "681068158339-gb6g4v13ubdir244ij2fi96oh7sd0vd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhyVlqTlMuvN6oMyBmQsti9utUngZVrF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681068158339-gb6g4v13ubdir244ij2fi96oh7sd0vd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
